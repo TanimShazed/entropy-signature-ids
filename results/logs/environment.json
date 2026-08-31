@@ -1,0 +1,26 @@
+{
+  "python_version": "3.12.13",
+  "platform": "Linux-6.12.90+-x86_64-with-glibc2.35",
+  "numpy_version": "2.0.2",
+  "pandas_version": "2.3.3",
+  "gpu_available": false,
+  "gpu_name": "N/A",
+  "master_seed": 42,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "n_train_nslkdd": 12000,
+  "n_test_nslkdd": 5000,
+  "n_train_iot": 6500,
+  "n_test_iot": 3500,
+  "datasets": [
+    "NSL-KDD (real)",
+    "Synthetic IoT-flow benchmark (literature-grounded, generated in-notebook)"
+  ],
+  "nslkdd_train_url": "https://raw.githubusercontent.com/defcom17/NSL_KDD/master/KDDTrain%2B.txt",
+  "nslkdd_test_url": "https://raw.githubusercontent.com/defcom17/NSL_KDD/master/KDDTest%2B.txt"
+}
