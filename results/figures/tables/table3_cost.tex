@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Computational cost comparison (mean $\pm$ std over 5 seeds). Entropy Signature requires no gradient-based training.}
+\label{tab:cost}
+\begin{tabular}{lcc}
+\toprule
+Method & Fit Time (s) & Inference (ms/flow) \\
+\midrule
+Entropy Signature (Proposed) & 0.2418 $\pm$ 0.0019 & 0.0006 $\pm$ 0.0000 \\
+Isolation Forest & 0.2270 $\pm$ 0.0075 & 0.0143 $\pm$ 0.0003 \\
+One-Class SVM & 0.1078 $\pm$ 0.0012 & 0.0990 $\pm$ 0.0028 \\
+Logistic Regression & 0.8177 $\pm$ 0.1372 & 0.0006 $\pm$ 0.0003 \\
+MLP (Heavy DL Baseline) & 6.0752 $\pm$ 0.3055 & 0.0020 $\pm$ 0.0006 \\
+\bottomrule
+\end{tabular}
+\end{table}

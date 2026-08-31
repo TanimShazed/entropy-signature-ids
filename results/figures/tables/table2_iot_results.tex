@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Detection performance on the synthetic IoT benchmark (mean $\pm$ std, 5 seeds).}
+\label{tab:iot}
+\begin{tabular}{lccccc}
+\toprule
+Method & Acc. (\%) & Prec. (\%) & Rec. (\%) & F1 (\%) & AUC \\
+\midrule
+Entropy Signature (Proposed) & 85.7 $\pm$ 0.8 & 79.8 $\pm$ 3.9 & 70.8 $\pm$ 3.2 & 74.9 $\pm$ 0.9 & 0.892 $\pm$ 0.007 \\
+Isolation Forest & 79.1 $\pm$ 0.7 & 59.1 $\pm$ 0.9 & 99.6 $\pm$ 0.2 & 74.1 $\pm$ 0.6 & 0.987 $\pm$ 0.003 \\
+One-Class SVM & 79.0 $\pm$ 0.6 & 58.9 $\pm$ 0.7 & 99.4 $\pm$ 0.3 & 74.0 $\pm$ 0.5 & 0.987 $\pm$ 0.001 \\
+Logistic Regression & 98.9 $\pm$ 0.2 & 98.6 $\pm$ 0.3 & 97.8 $\pm$ 0.5 & 98.2 $\pm$ 0.3 & 0.999 $\pm$ 0.000 \\
+MLP (Heavy DL Baseline) & 98.8 $\pm$ 0.2 & 98.4 $\pm$ 0.5 & 97.6 $\pm$ 0.5 & 98.0 $\pm$ 0.3 & 0.999 $\pm$ 0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}
